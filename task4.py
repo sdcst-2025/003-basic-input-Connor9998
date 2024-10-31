@@ -16,3 +16,14 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+
+r=input("height:")
+#convert to a number
+r = float(r)
+h=input("radius")
+#covert to a number
+h = float(h)
+A= (3.141592653589793*r)*(r+math.pow(h,2)+math.pow(r,2))*(0.5)
+Output=(A)
+print(A)
